@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <title>My First Web Page</title>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        background-color: #38588a;
+      }
+      li {
+        display: inline;
+      }
+      li a {
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+      }
+      .active {
+        background-color: #04aa6d;
+      }
+      li a:hover {
+        background-color: #111;
+      }
+      img {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 5px;
+        max-width: auto;
+        max-height: auto;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        opacity: 50%;
+      }
+      .transform_animation {
+        width: 200px;
+        height: 100px;
+        margin-top: 200px;
+        background-color: red;
+      }
+      .transform_animation:hover {
+        transform: translate(100px, 100px);
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#">HTML5</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <img src="download.jpeg" alt="Mountains" />
+    <img src="Screenshot 2026-05-02 at 10.35.50.png" alt="" />
+    <div class="transform_animation"></div>
+  </body>
+</html>
